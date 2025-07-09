@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Catálogo de productos</title>
+  <meta charset="UTF-8" />
+  <title>Tienda de Papelería Creativa</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Catálogo de productos de papelería</h1>
-  <p>Aquí encontrarás lápices, libretas, stickers y mucho más ✨</p>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Papelería Creativa</div>
+      <ul class="nav-links">
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Inicio de sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Catálogo de productos</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="img/portaminas.jpg" alt="Portaminas" />
+        <h3>Portaminas 0.5 mm</h3>
+        <p>Ideal para dibujo técnico y escritura fina.</p>
+        <a href="#" class="button">Comprar</a>
+      </div>
+      <div class="product">
+        <img src="img/libreta.jpg" alt="Libreta" />
+        <h3>Libreta A5</h3>
+        <p>Libreta de tapa dura con hojas rayadas.</p>
+        <a href="#" class="button">Comprar</a>
+      </div>
+      <div class="product">
+        <img src="img/stickers.jpg" alt="Stickers" />
+        <h3>Stickers decorativos</h3>
+        <p>Paquete de stickers con diseños coloridos.</p>
+        <a href="#" class="button">Comprar</a>
+      </div>
+      <!-- Puedes agregar más productos aquí -->
+    </div>
+  </div>
 </body>
 </html>
